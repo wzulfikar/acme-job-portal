@@ -1,0 +1,41 @@
+{
+  "name": "acme-job-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "cross-env NODE_ENV=production next build",
+    "start": "next start",
+    "analyze": "cross-env ANALYZE=true next build",
+    "fmt": "prettier --write \"**/*.(js|ts|tsx)\"",
+    "postinstall": "node scripts/patch-react-spring.js"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.2",
+    "next": "9.5.2",
+    "next-seo": "^4.7.3",
+    "qs": "^6.9.4",
+    "raw-body": "^2.4.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-icons": "^3.11.0",
+    "react-pdf": "^5.0.0",
+    "react-rewards": "^1.1.1",
+    "react-spring": "^9.0.0-rc.3",
+    "react-use": "^15.3.3",
+    "react-use-gesture": "^7.0.16",
+    "rodal": "^1.8.1",
+    "swr": "^0.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "cross-env": "^7.0.2",
+    "jest": "^26.3.0",
+    "now": "^20.1.0",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.1.1",
+    "replace-in-file": "^6.1.0",
+    "tailwindcss": "^1.8.8"
+  }
+}

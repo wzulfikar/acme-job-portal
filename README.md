@@ -10,7 +10,7 @@ Visit this URL to play around with the app:
 
 https://acme-job-portal.vercel.app
 
-![public/assets/images/og-default.jpeg](public/assets/images/og-default.jpeg)
+![demo.gif](demo.gif)
 
 ---
 

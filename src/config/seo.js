@@ -2,11 +2,10 @@ export default {
   openGraph: {
     title: "Acme Job Portal",
     description: "Just another experiment. React Spring x Tailwind x NextJS.",
-    url: "https://acme-job-portal.wzulfikar.vercel.app/",
+    url: "https://acme-job-portal.vercel.app/",
     images: [
       {
-        url:
-          "https://acme-job-portal.wzulfikar.vercel.app/assets/images/og-default.jpeg",
+        url: "https://acme-job-portal.vercel.app/assets/images/og-default.jpeg",
         width: 860,
         height: 506,
         alt: `Acme Job Portal`,
@@ -14,6 +13,6 @@ export default {
     ],
     type: "website",
     locale: "en_IE",
-    site_name: "acme-job-portal.wzulfikar.vercel.app",
+    site_name: "https://acme-job-portal.vercel.app",
   },
 };

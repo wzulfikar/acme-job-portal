@@ -7,6 +7,7 @@ import Head from 'next/head'
 import { DefaultSeo } from "next-seo";
 
 import seoConfig from "../src/config/seo";
+import GithubCorner from "../src/components/GithubCorner";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,6 +17,8 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <DefaultSeo {...seoConfig} />
       <Component {...pageProps} className="antialiased" />
+
+      <GithubCorner url={'https://acme-job-portal.vercel.app'} />
     </>
   );
 }

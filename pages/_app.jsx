@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
       <DefaultSeo {...seoConfig} />
       <Component {...pageProps} className="antialiased" />
 
-      <GithubCorner url={'https://acme-job-portal.vercel.app'} />
+      <GithubCorner url={'https://github.com/wzulfikar/acme-job-portal'} />
     </>
   );
 }
